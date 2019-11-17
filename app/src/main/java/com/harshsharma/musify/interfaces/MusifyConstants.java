@@ -8,7 +8,7 @@ public interface MusifyConstants {
 
     String TYPE = "TYPE";
 
-    public interface DashBoardFragments {
+    interface DashBoardFragments {
         String TRACKS = "TRACKS";
         String PURCHASES = "PURCHASES";
         String PROFILE = "PROFILE";

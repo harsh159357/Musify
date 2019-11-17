@@ -47,8 +47,6 @@
 
     <string name="music_title">Music Title</string>
     <string name="music_artist">Music Artist</string>
-    <string name="dummy_time_elapsed">1:05</string>
-    <string name="dummy_end_time">3:06</string>
     <string name="playback">Playback</string>
     <string name="no_track_loaded_yet">No Track Loaded Yet</string>
     <string name="swipe_left_right_to_change_track">Swipe Left/Right To Change Track</string>

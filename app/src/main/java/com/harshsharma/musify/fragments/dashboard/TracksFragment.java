@@ -131,7 +131,7 @@ public class TracksFragment extends BaseFragment implements OnTracksClickListene
                     break;
                 case EventCenter.TRACK_IS_ALREADY_PURCHASED:
                 case EventCenter.TRACK_PURCHASED_SUCCESSFULLY:
-                    trackArrayList.remove((Track) eventObject.getObject());
+                    trackArrayList.remove(eventObject.getObject());
                     tracksAdapter.notifyDataSetChanged();
                     break;
                 case EventCenter.NO_INTERNET_CONNECTION:

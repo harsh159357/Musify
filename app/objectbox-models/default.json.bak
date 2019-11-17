@@ -33,12 +33,6 @@
           "id": "5:838845226292774981",
           "name": "cover_image",
           "type": 9
-        },
-        {
-          "id": "6:1450972025735133241",
-          "name": "isPurchased",
-          "type": 1,
-          "flags": 4
         }
       ],
       "relations": []
@@ -52,7 +46,9 @@
   "modelVersionParserMinimum": 5,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [],
+  "retiredPropertyUids": [
+    1450972025735133241
+  ],
   "retiredRelationUids": [],
   "version": 1
 }

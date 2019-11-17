@@ -143,7 +143,7 @@ public class MusifyStreamingController extends MusifyAbstractStreamingController
 
     @Override
     public int lastSeekPosition() {
-        return (audioPlayback == null) ? 0 : (int) audioPlayback.getCurrentStreamPosition();
+        return (audioPlayback == null) ? 0 : audioPlayback.getCurrentStreamPosition();
     }
 
     @Override
@@ -360,7 +360,7 @@ public class MusifyStreamingController extends MusifyAbstractStreamingController
             return;
         }
         if (instance.mLastPlaybackState != PlaybackStateCompat.STATE_PAUSED && instance.musifyServiceCallback != null) {
-            instance.musifyServiceCallback.currentSeekBarPosition((int) audioPlayback.getCurrentStreamPosition());
+            instance.musifyServiceCallback.currentSeekBarPosition(audioPlayback.getCurrentStreamPosition());
         }
     }
 

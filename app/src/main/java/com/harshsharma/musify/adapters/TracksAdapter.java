@@ -94,7 +94,7 @@ public class TracksAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
         @Override
         public void onClick(View view) {
-            Track track = (Track) trackArrayList.get(getAdapterPosition());
+            Track track = trackArrayList.get(getAdapterPosition());
             switch (view.getId()) {
                 case R.id.root_track:
                     tracksClickListener.onTrackClick(getAdapterPosition(), track);
