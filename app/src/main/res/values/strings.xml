@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Musify</string>
+
+    <!--Fonts-->
+    <string name="font_roboto_bold" translatable="false">Roboto_Bold.ttf</string>
+    <string name="font_roboto_regular" translatable="false">Roboto_Regular.ttf</string>
+    <!--Fonts/-->
+
+    <!--Bottom Navigation Titles-->
+    <string name="tracks">Tracks</string>
+    <string name="purchases">Purchases</string>
+    <string name="profile">Profile</string>
+    <!--Bottom Navigation Titles-->
+
+    <!--Toolbar Title-->
+    <string name="all_tracks">All Tracks</string>
+    <string name="all_purchases">All Purchases</string>
+    <string name="my_profile">My Profile</string>
+    <!--Toolbar Title-->
+
+    <!--My Profile-->
+    <string name="name">Harsh Sharma</string>
+    <string name="sub_title">Senior Android Developer</string>
+    <string name="brief">I can\'t predict the future - But I can Invent It.</string>
+    <string name="github_link">harsh159357</string>
+    <string name="facebook_link">HARSH159357</string>
+    <string name="linkedin_link">harsh159357/</string>
+    <string name="email_link">harsh159357@gmail.com</string>
+    <!--My Profile-->
+
+    <!--Progress Dialog Texts-->
+    <string name="progress_text_loading">Loading…</string>
+    <string name="no_tracks_found">No Tracks Found !! Tap Here to Retry.</string>
+    <string name="no_internet_connection">No Internet Connection !!</string>
+    <string name="no_track_available">No Track Available !!</string>
+    <string name="purchase">Purchase</string>
+    <string name="confirm_purchase">Are you Sure you want to purchase</string>
+    <string name="purchasing">Purchasing…</string>
+    <string name="track_purchase_successful">Track Purchased Successfully</string>
+    <string name="unable_to_purchase_track">Unable to Purchase Track</string>
+    <string name="no_purchases_found">No Purchases Found</string>
+    <string name="track_already_purchased">Track is Already Purchased</string>
+    <string name="remove_all_purchases">Remove All Purchases</string>
+    <string name="confirm_remove_purchases">Are you sure you want to remove all your purchases ?</string>
+    <string name="refresh">Refresh</string>
+    <!--Progress Dialog Texts-->
+
+    <string name="music_title">Music Title</string>
+    <string name="music_artist">Music Artist</string>
+    <string name="dummy_time_elapsed">1:05</string>
+    <string name="dummy_end_time">3:06</string>
+    <string name="playback">Playback</string>
+    <string name="no_track_loaded_yet">No Track Loaded Yet</string>
+    <string name="swipe_left_right_to_change_track">Swipe Left/Right To Change Track</string>
+    <string name="buffering">Buffering</string>
+
+</resources>

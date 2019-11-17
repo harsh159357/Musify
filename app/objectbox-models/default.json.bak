@@ -1,0 +1,58 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5837377191130528569",
+      "lastPropertyId": "6:1450972025735133241",
+      "name": "Track",
+      "properties": [
+        {
+          "id": "1:2766930802709170466",
+          "name": "trackId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3719751755850573870",
+          "name": "song",
+          "type": 9
+        },
+        {
+          "id": "3:8434291507119962049",
+          "name": "url",
+          "type": 9
+        },
+        {
+          "id": "4:7478223170408974897",
+          "name": "artists",
+          "type": 9
+        },
+        {
+          "id": "5:838845226292774981",
+          "name": "cover_image",
+          "type": 9
+        },
+        {
+          "id": "6:1450972025735133241",
+          "name": "isPurchased",
+          "type": 1,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:5837377191130528569",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

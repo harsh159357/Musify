@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fadeGray"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_tracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:shimmer_duration="800">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_tracks_placeholder" />
+
+            <include layout="@layout/item_tracks_placeholder" />
+
+            <include layout="@layout/item_tracks_placeholder" />
+
+            <include layout="@layout/item_tracks_placeholder" />
+
+            <include layout="@layout/item_tracks_placeholder" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.harshsharma.musify.customviews.TextViewCustom
+        android:id="@+id/tv_no_tracks"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp16"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/no_tracks_found"
+        android:visibility="gone"
+        app:fonts="@string/font_roboto_regular" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_tracks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/dp150"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>

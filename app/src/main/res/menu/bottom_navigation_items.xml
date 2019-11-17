@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_tracks"
+        android:icon="@drawable/ic_tracks_black"
+        android:title="@string/tracks" />
+    <item
+        android:id="@+id/tab_purchases"
+        android:icon="@drawable/ic_purchases_black"
+        android:title="@string/purchases" />
+    <item
+        android:id="@+id/tab_profile"
+        android:icon="@drawable/ic_profile_black"
+        android:title="@string/profile" />
+</menu>
